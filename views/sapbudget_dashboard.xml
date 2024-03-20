@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="action_sapbudget_dashboard" model="ir.actions.client">
+            <field name="name">SAP Budget Dashboard</field>
+            <field name="tag">bbp.BudgetDashboard</field>
+        </record>
+        <menuitem name="SAP Budget Dashboard" id="menu_sap_budget" sequence="10" web_icon="budget,static/description/icon.png">
+            <menuitem name="Budget Report" id="menu_all_budget" sequence="10" action="action_sapbudget_dashboard"></menuitem>
+        </menuitem>
+    </data>
+</odoo>

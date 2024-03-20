@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="TableBudgetReportDetail" owl="1">
+        <div class="mb-3" t-ref="grid2"></div>
+    </t>
+</templates>
